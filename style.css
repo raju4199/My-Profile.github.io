@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(bac.jpg) no-repeat;
+  background-size: cover;
+}
+.box {
+  width: 450px;
+  background: rgb(red, green, blue);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.box-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h4 {
+  font-size: 25;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p {
+  text-align: justify;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.box li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a {
+  color: beige;
+  text-decoration: none;
+  font-size: 60px;
+}
+.box li a:hover {
+  color: #b9b9b9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.max-width {
+  max-width: 300px;
+  padding: 0 80px;
+  margin: auto;
+}
+na.bar {
+  position: fixed;
+  width: 100%;
+  background: crimson;
+  font-family: "ubuntu" sans-serif;
+}
+.navbar .max-widthg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  color: #fff;
+}
